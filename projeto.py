@@ -1,6 +1,6 @@
 #FEITO POR Marcos Martins Camelo
 
-cpfs = ['119.446.454-89', '402.899.391-72', '305.505.401-21', '690.240.112-24']
+cpfs = ['111.444.433-85', '402.899.391-72', '305.505.401-21', '690.240.112-24']
 nomes = ['Marcos Martins Camelo', 'Lucas Paiva', 'Vinicius Padilha', 'Carlos Sodré']
 apartamentos = ['401', '402', '403', '404']
 debitos = ['Pagador', 'Devedor', 'Pagador', 'Devedor']
@@ -42,7 +42,7 @@ if menu_principal == 1:
 
 if menu_principal == 2:
     consultacpf = str(input(' \n \nDigite o CPF: '))
-    if consultacpf == '119.446.454-89':
+    if consultacpf == '111.444.433-85':
         print(' CPF:', cpfs[0], '\n', 'Nome: ', nomes[0], '\n', 'Apartamento:', apartamentos[0], '\n', 'Débito:',
               debitos[0], '\n')
     elif consultacpf == '402.899.391-72':
@@ -74,7 +74,7 @@ if menu_principal == 2:
 if menu_principal == 3:
     procurar_cpf = input('Digite o CPF: ')
 
-    if procurar_cpf == '119.446.454-89':
+    if procurar_cpf == '111.444.433-85':
         attdebito = str(input('1 - Pagador \n'
                               '2 - Devedor \n'
                               '>'))
@@ -144,7 +144,7 @@ if menu_principal == 5:
 if menu_principal == 6:
     procurar_cpf = input('Digite o CPF: ')
 
-    if procurar_cpf == '119.446.454-89' or '402.899.391-72' or '305.505.401-21' or '690.240.112-24':
+    if procurar_cpf == '111.444.433-85' or '402.899.391-72' or '305.505.401-21' or '690.240.112-24':
         attdebito = str(input('1 - Remover Condômino \n'
                               '> '))
         if attdebito == 1:
