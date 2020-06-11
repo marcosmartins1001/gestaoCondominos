@@ -4,7 +4,6 @@ cpfs = ['119.446.454-89', '402.899.391-72', '305.505.401-21', '690.240.112-24']
 nomes = ['Marcos Martins Camelo', 'Lucas Paiva', 'Vinicius Padilha', 'Carlos Sodré']
 apartamentos = ['401', '402', '403', '404']
 debitos = ['Pagador', 'Devedor', 'Pagador', 'Devedor']
-cudodedo = "mizera"
 
 menu_principal = int(input('MENU PRINCIAL \n'
                            '1 - Inserir um novo condômino \n'
