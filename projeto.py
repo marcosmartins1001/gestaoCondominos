@@ -1,4 +1,6 @@
-#FEITO POR Marcos Martins Camelo
+#FEITO POR Marcos Martins Camelo;
+#Este programa é um projeto foi desenvolvido no P1;
+#Todas as informações tem que ser alteradas manualmente, pois não tem um BD;
 
 cpfs = ['111.444.455-89', '402.899.391-72', '305.505.401-21', '690.240.112-24']
 nomes = ['Marcos Martins Camelo', 'Lucas Paiva', 'Vinicius Padilha', 'Carlos Sodré']
@@ -201,13 +203,13 @@ while menu_principal:
             break
 
     if menu_principal == 6:
-        procurar_cpf = input('Digite o CPF: \n')
+        procurar_cpf = input('Digite o CPF: ')
 
         if procurar_cpf == '111.444.455-89' or '402.899.391-72' or '305.505.401-21' or '690.240.112-24':
             attdebito = str(input('1 - Remover Condômino \n'
                                   '> '))
             if attdebito == 1:
-                del(cpfs[0], nomes[0], apartamentos[0], debitos[0])
+                del(cpfs[0], nomes[0], apartamentos[0], debitos[0]) #Modificar manualmente ou usar um BD
             print('O condômino de CPF: {} foi removido com sucesso! \n' .format(procurar_cpf))
         while True:
             print(linha())
