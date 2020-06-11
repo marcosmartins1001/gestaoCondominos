@@ -1,5 +1,5 @@
 #FEITO POR Marcos Martins Camelo;
-#Este programa é um projeto foi desenvolvido no P1;
+#Este programa é um projeto que foi desenvolvido no P1;
 #Todas as informações tem que ser alteradas manualmente, pois não tem um BD;
 
 cpfs = ['111.444.455-89', '402.899.391-72', '305.505.401-21', '690.240.112-24']
@@ -111,10 +111,10 @@ while menu_principal:
                                   '2 - Devedor \n'
                                   '> '))
             if attdebito == 1:
-                debitos[0] = "Pagador"
+                debitos[1] = "Pagador"
                 print('o CPF: {} foi colocado no grupo de pagadores! \n'.format(procurar_cpf))
             elif attdebito == 2:
-                debitos[0] = "Devedor"
+                debitos[1] = "Devedor"
                 print('o CPF: {} foi colocado no grupo de devedores! \n'.format(procurar_cpf))
 
         if procurar_cpf == '305.505.401-21':
@@ -122,10 +122,10 @@ while menu_principal:
                                   '2 - Devedor \n'
                                   '> '))
             if attdebito == 1:
-                debitos[0] = "Pagador"
+                debitos[2] = "Pagador"
                 print('o CPF: {} foi colocado no grupo de pagadores! \n'.format(procurar_cpf))
             elif attdebito == 2:
-                debitos[0] = "Devedor"
+                debitos[2] = "Devedor"
                 print('o CPF: {} foi colocado no grupo de devedores! \n'.format(procurar_cpf))
 
         if procurar_cpf == '690.240.112-24':
@@ -133,10 +133,10 @@ while menu_principal:
                                   '2 - Devedor \n'
                                   '>'))
             if attdebito == 1:
-                debitos[0] = "Pagador"
+                debitos[3] = "Pagador"
                 print('o CPF: {} foi colocado no grupo de pagadores! \n'.format(procurar_cpf))
             elif attdebito == 2:
-                debitos[0] = "Devedor"
+                debitos[3] = "Devedor"
                 print('o CPF: {} foi colocado no grupo de devedores! \n'.format(procurar_cpf))
         else:
             print('CPF não cadastrado!')
